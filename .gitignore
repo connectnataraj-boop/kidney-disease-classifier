@@ -1,0 +1,74 @@
+# -----------------------------------------------
+# Large data files — too big for GitHub
+# -----------------------------------------------
+*.csv
+*.zip
+*.tar.gz
+*.gz
+
+# GloVe embeddings — download separately
+glove.6B.100d.txt
+glove.6B.200d.txt
+glove.6B.300d.txt
+glove.6B.50d.txt
+glove.840B.300d.txt
+
+# Saved model weights — too large for GitHub
+*.pt
+*.pth
+*.bin
+*.ckpt
+
+# -----------------------------------------------
+# Python
+# -----------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# -----------------------------------------------
+# Jupyter Notebook
+# -----------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# -----------------------------------------------
+# IDE & Editor
+# -----------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# -----------------------------------------------
+# Logs & temp files
+# -----------------------------------------------
+*.log
+*.tmp
+*.temp
+logs/
